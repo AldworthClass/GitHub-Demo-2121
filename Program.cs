@@ -6,7 +6,10 @@ namespace GitHub_Demo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string name;
+            Console.WriteLine("Hello.  What is your name?");
+            name = Console.ReadLine();
+            Console.WriteLine("Hi, " + name);
         }
     }
 }
